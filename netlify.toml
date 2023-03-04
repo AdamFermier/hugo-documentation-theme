@@ -19,3 +19,6 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+    
+# Setup uglyurls b/c we need to explicitly say docs/index.html versus simply docs/
+uglyURLs = true
